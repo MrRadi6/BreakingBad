@@ -9,3 +9,7 @@ end
 target 'Breaking Bad' do
   sharedPods
 end
+
+target 'Breaking BadTests' do
+  sharedPods
+end

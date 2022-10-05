@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52327CD728ED2A830060C699 /* CharactersListUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CD628ED2A830060C699 /* CharactersListUseCaseTests.swift */; };
+		52327CDA28ED2B8E0060C699 /* CharacterRepositoryMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CD928ED2B8E0060C699 /* CharacterRepositoryMock.swift */; };
+		52327CDC28ED2C060060C699 /* DataMocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CDB28ED2C060060C699 /* DataMocks.swift */; };
+		52327CDE28ED31840060C699 /* CharacterDetailsUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CDD28ED31840060C699 /* CharacterDetailsUseCaseTests.swift */; };
+		52327CE128ED32D90060C699 /* CharactersListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CE028ED32D90060C699 /* CharactersListViewModelTests.swift */; };
+		52327CE328ED331B0060C699 /* CharactersListUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CE228ED331B0060C699 /* CharactersListUseCaseMock.swift */; };
+		52327CE628ED3FFA0060C699 /* CharacterDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CE528ED3FFA0060C699 /* CharacterDetailsViewModelTests.swift */; };
+		52327CE828ED403F0060C699 /* CharacterDetailsUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52327CE728ED403F0060C699 /* CharacterDetailsUseCaseMock.swift */; };
 		5292775728ECE4D00097F3D7 /* Breaking_BadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292775628ECE4D00097F3D7 /* Breaking_BadApp.swift */; };
 		5292775E28ECE4D20097F3D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5292775D28ECE4D20097F3D7 /* Preview Assets.xcassets */; };
 		529277A628ECEBD00097F3D7 /* CharacterDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5292776728ECEBCF0097F3D7 /* CharacterDetailsViewModel.swift */; };
@@ -43,9 +51,31 @@
 		529277CB28ECEBD00097F3D7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 529277A328ECEBD00097F3D7 /* Localizable.strings */; };
 		529277CC28ECEBD00097F3D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 529277A528ECEBD00097F3D7 /* Assets.xcassets */; };
 		652B9875673755D9CA0379F3 /* libPods-Breaking Bad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E8BDB23190FECC5E664A0E /* libPods-Breaking Bad.a */; };
+		BA00CC8F33CCE6ECF2715AC3 /* libPods-Breaking BadTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D27DB7A34C1106B9BA3538 /* libPods-Breaking BadTests.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		52327CD028ED2A5B0060C699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5292774B28ECE4D00097F3D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5292775228ECE4D00097F3D7;
+			remoteInfo = "Breaking Bad";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		258F051FC302E85C74EA8E27 /* Pods-Breaking BadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breaking BadTests.release.xcconfig"; path = "Target Support Files/Pods-Breaking BadTests/Pods-Breaking BadTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CBE2AD8EFF7100B2CDBCB76 /* Pods-Breaking BadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breaking BadTests.debug.xcconfig"; path = "Target Support Files/Pods-Breaking BadTests/Pods-Breaking BadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52327CCC28ED2A5B0060C699 /* Breaking BadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breaking BadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52327CD628ED2A830060C699 /* CharactersListUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListUseCaseTests.swift; sourceTree = "<group>"; };
+		52327CD928ED2B8E0060C699 /* CharacterRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterRepositoryMock.swift; sourceTree = "<group>"; };
+		52327CDB28ED2C060060C699 /* DataMocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMocks.swift; sourceTree = "<group>"; };
+		52327CDD28ED31840060C699 /* CharacterDetailsUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsUseCaseTests.swift; sourceTree = "<group>"; };
+		52327CE028ED32D90060C699 /* CharactersListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModelTests.swift; sourceTree = "<group>"; };
+		52327CE228ED331B0060C699 /* CharactersListUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListUseCaseMock.swift; sourceTree = "<group>"; };
+		52327CE528ED3FFA0060C699 /* CharacterDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		52327CE728ED403F0060C699 /* CharacterDetailsUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsUseCaseMock.swift; sourceTree = "<group>"; };
 		5292775328ECE4D00097F3D7 /* Breaking Bad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breaking Bad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5292775628ECE4D00097F3D7 /* Breaking_BadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breaking_BadApp.swift; sourceTree = "<group>"; };
 		5292775D28ECE4D20097F3D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -84,10 +114,19 @@
 		529277A528ECEBD00097F3D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64E8BDB23190FECC5E664A0E /* libPods-Breaking Bad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Breaking Bad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB596C11F4A41051B61D50F9 /* Pods-Breaking Bad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breaking Bad.debug.xcconfig"; path = "Target Support Files/Pods-Breaking Bad/Pods-Breaking Bad.debug.xcconfig"; sourceTree = "<group>"; };
+		B6D27DB7A34C1106B9BA3538 /* libPods-Breaking BadTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Breaking BadTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C60E627F3189E0C7F47BEF2B /* Pods-Breaking Bad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breaking Bad.release.xcconfig"; path = "Target Support Files/Pods-Breaking Bad/Pods-Breaking Bad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		52327CC928ED2A5B0060C699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA00CC8F33CCE6ECF2715AC3 /* libPods-Breaking BadTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5292775028ECE4D00097F3D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,14 +143,64 @@
 			children = (
 				AB596C11F4A41051B61D50F9 /* Pods-Breaking Bad.debug.xcconfig */,
 				C60E627F3189E0C7F47BEF2B /* Pods-Breaking Bad.release.xcconfig */,
+				2CBE2AD8EFF7100B2CDBCB76 /* Pods-Breaking BadTests.debug.xcconfig */,
+				258F051FC302E85C74EA8E27 /* Pods-Breaking BadTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		52327CCD28ED2A5B0060C699 /* Breaking BadTests */ = {
+			isa = PBXGroup;
+			children = (
+				52327CD828ED2B670060C699 /* Mocks */,
+				52327CD528ED2A710060C699 /* UseCases */,
+				52327CDF28ED32910060C699 /* CharactersList */,
+				52327CE428ED3FE80060C699 /* CharacterDetails */,
+			);
+			path = "Breaking BadTests";
+			sourceTree = "<group>";
+		};
+		52327CD528ED2A710060C699 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				52327CD628ED2A830060C699 /* CharactersListUseCaseTests.swift */,
+				52327CDD28ED31840060C699 /* CharacterDetailsUseCaseTests.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		52327CD828ED2B670060C699 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				52327CDB28ED2C060060C699 /* DataMocks.swift */,
+				52327CD928ED2B8E0060C699 /* CharacterRepositoryMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		52327CDF28ED32910060C699 /* CharactersList */ = {
+			isa = PBXGroup;
+			children = (
+				52327CE228ED331B0060C699 /* CharactersListUseCaseMock.swift */,
+				52327CE028ED32D90060C699 /* CharactersListViewModelTests.swift */,
+			);
+			path = CharactersList;
+			sourceTree = "<group>";
+		};
+		52327CE428ED3FE80060C699 /* CharacterDetails */ = {
+			isa = PBXGroup;
+			children = (
+				52327CE728ED403F0060C699 /* CharacterDetailsUseCaseMock.swift */,
+				52327CE528ED3FFA0060C699 /* CharacterDetailsViewModelTests.swift */,
+			);
+			path = CharacterDetails;
 			sourceTree = "<group>";
 		};
 		5292774A28ECE4D00097F3D7 = {
 			isa = PBXGroup;
 			children = (
 				5292775528ECE4D00097F3D7 /* Breaking Bad */,
+				52327CCD28ED2A5B0060C699 /* Breaking BadTests */,
 				5292775428ECE4D00097F3D7 /* Products */,
 				31E673CC4F2540A573C59488 /* Pods */,
 				647FE9EE9FD27221B0C184EF /* Frameworks */,
@@ -122,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				5292775328ECE4D00097F3D7 /* Breaking Bad.app */,
+				52327CCC28ED2A5B0060C699 /* Breaking BadTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -388,6 +478,7 @@
 			isa = PBXGroup;
 			children = (
 				64E8BDB23190FECC5E664A0E /* libPods-Breaking Bad.a */,
+				B6D27DB7A34C1106B9BA3538 /* libPods-Breaking BadTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -395,6 +486,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		52327CCB28ED2A5B0060C699 /* Breaking BadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52327CD428ED2A5B0060C699 /* Build configuration list for PBXNativeTarget "Breaking BadTests" */;
+			buildPhases = (
+				06BEAA0B0976047C507D0D7F /* [CP] Check Pods Manifest.lock */,
+				52327CC828ED2A5B0060C699 /* Sources */,
+				52327CC928ED2A5B0060C699 /* Frameworks */,
+				52327CCA28ED2A5B0060C699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52327CD128ED2A5B0060C699 /* PBXTargetDependency */,
+			);
+			name = "Breaking BadTests";
+			productName = "Breaking BadTests";
+			productReference = 52327CCC28ED2A5B0060C699 /* Breaking BadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		5292775228ECE4D00097F3D7 /* Breaking Bad */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5292776128ECE4D20097F3D7 /* Build configuration list for PBXNativeTarget "Breaking Bad" */;
@@ -423,6 +533,10 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
+					52327CCB28ED2A5B0060C699 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 5292775228ECE4D00097F3D7;
+					};
 					5292775228ECE4D00097F3D7 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -442,11 +556,19 @@
 			projectRoot = "";
 			targets = (
 				5292775228ECE4D00097F3D7 /* Breaking Bad */,
+				52327CCB28ED2A5B0060C699 /* Breaking BadTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		52327CCA28ED2A5B0060C699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5292775128ECE4D00097F3D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -460,6 +582,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		06BEAA0B0976047C507D0D7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Breaking BadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A9F44AC3BB61658633A19550 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,6 +629,21 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		52327CC828ED2A5B0060C699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52327CDE28ED31840060C699 /* CharacterDetailsUseCaseTests.swift in Sources */,
+				52327CE328ED331B0060C699 /* CharactersListUseCaseMock.swift in Sources */,
+				52327CE628ED3FFA0060C699 /* CharacterDetailsViewModelTests.swift in Sources */,
+				52327CD728ED2A830060C699 /* CharactersListUseCaseTests.swift in Sources */,
+				52327CE128ED32D90060C699 /* CharactersListViewModelTests.swift in Sources */,
+				52327CDC28ED2C060060C699 /* DataMocks.swift in Sources */,
+				52327CE828ED403F0060C699 /* CharacterDetailsUseCaseMock.swift in Sources */,
+				52327CDA28ED2B8E0060C699 /* CharacterRepositoryMock.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5292774F28ECE4D00097F3D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,6 +685,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		52327CD128ED2A5B0060C699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5292775228ECE4D00097F3D7 /* Breaking Bad */;
+			targetProxy = 52327CD028ED2A5B0060C699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		529277A328ECEBD00097F3D7 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
@@ -538,6 +705,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		52327CD228ED2A5B0060C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CBE2AD8EFF7100B2CDBCB76 /* Pods-Breaking BadTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52W72N842G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samir01.Breaking-BadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breaking Bad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breaking Bad";
+			};
+			name = Debug;
+		};
+		52327CD328ED2A5B0060C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 258F051FC302E85C74EA8E27 /* Pods-Breaking BadTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52W72N842G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.samir01.Breaking-BadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breaking Bad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breaking Bad";
+			};
+			name = Release;
+		};
 		5292775F28ECE4D20097F3D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -717,6 +924,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		52327CD428ED2A5B0060C699 /* Build configuration list for PBXNativeTarget "Breaking BadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52327CD228ED2A5B0060C699 /* Debug */,
+				52327CD328ED2A5B0060C699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5292774E28ECE4D00097F3D7 /* Build configuration list for PBXProject "Breaking Bad" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

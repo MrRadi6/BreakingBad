@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  Breaking Bad
+
+  Created by Samir on 10/5/22.
+  
+*/
+
+// MARK: - Globals
+"global_unkown_network_error" = "An error has been occuered!";
+"global_ok_action" = "OK";
+
+// MARK: - Characters List
+"characters_list_View_characters_title" = "Characters";
+"characters_list_View_character_search" = "Character name...";
+"characters_list_loading_more_characters" = "Loading More";
+
+// MARK: - Characters Details
+"character_details_title" = "Character Details";
+"character_details_name_title" = "Name";
+"character_details_nickname_title" = "Nickname";

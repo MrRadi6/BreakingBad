@@ -11,7 +11,7 @@ import SwiftUI
 struct Breaking_BadApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppicationFlow().launchApp()
         }
     }
 }

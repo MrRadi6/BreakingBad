@@ -15,6 +15,7 @@ struct CharacterItemView: View {
         HStack(alignment: .center, spacing: 5) {
             CharacterImage(imageURL: character.imageUrl)
                 .frame(width: 60, height: 60)
+                .aspectRatio(contentMode: .fit)
                 .clipShape(RoundedRectangle(cornerRadius: imageCornerRadius))
                 .padding(.trailing, 5)
             Text(character.name)

@@ -43,6 +43,7 @@ private struct CharacterImageView: View {
 
     var body: some View {
         CharacterImage(imageURL: imageURL)
+            .aspectRatio(contentMode: .fit)
             .clipShape(RoundedRectangle(cornerRadius: imageCornerRadius))
             .shadow(radius: imageCornerRadius)
     }
